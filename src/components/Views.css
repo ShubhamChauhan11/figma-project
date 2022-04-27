@@ -1,0 +1,250 @@
+.views{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 0px;
+     
+     position: absolute;
+     top: 2350px;
+     width: 890px;
+     height: 600px;
+     left: 97px;
+     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+
+     
+     
+     
+     
+     /* Inside auto layout */
+     
+     flex: none;
+     order: 2;
+     flex-grow: 0;
+     margin: 32px 0px;
+}
+.viewtop{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 20px 15px;
+     
+     position: static;
+     width:840px;
+     height: 80px;
+     left: 0px;
+     top: 0px;
+     
+     background: #FFFFFF;
+}
+.pfimg{
+     position: static;
+width: 100px;
+height: 100px;
+left: 50px;
+top: calc(50% - 100px/2);
+padding: 0%;
+
+background: url(../assets/unsplash_ZHvM3XIOHoE.jpg), #C4C4C4;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.pfinfo{
+     /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+margin-left: 0px;
+
+position: static;
+width: 450px;
+height: 104px;
+left: 100px;
+top: calc(50% - 104px/2);
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 24px
+}
+.pfinfo h2{
+     margin-bottom: 0px;
+}
+.pfinfo p{
+     margin-top: 0px;
+}
+.lorem{
+     padding: 10px 10px;
+     margin-top: 0px;
+  
+}
+.lorem h3{
+     position: static;
+width: 870px;
+height: 64px;
+left: 50px;
+top: 24px;
+
+/* Heading 5 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 27.65px;
+line-height: 32px;
+/* or 116% */
+
+
+color: #000000;
+
+}
+input{
+     margin-bottom: 30px;
+     margin-left: 20px;
+     margin-right: 10px;
+     width: 20px;
+     height: 20px;
+}
+
+.likecmnts{
+     display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-top: 0px;
+padding: 24px 20px;
+
+position: static;
+top: 80px;
+width: 830px;
+height: 40px;
+left: 0px;
+
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.makechanges{
+     display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 850px;
+height: 80px;
+left: 0px;
+top: 604px;
+
+border-radius: 0px 0px 16px 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.likess{
+     position: static;
+width: 520px;
+height: 32px;
+left: 50px;
+top: 24px;
+
+/* Heading 6 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23.04px;
+line-height: 32px;
+/* identical to box height, or 139% */
+
+
+color: #000000;
+
+}
+.cmntss{
+     position: static;
+width: 520px;
+height: 32px;
+left: 570px;
+top: 24px;
+margin-left: 30px;
+
+/* Heading 6 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 23.04px;
+line-height: 32px;
+/* identical to box height, or 139% */
+
+text-align: right;
+
+color: #000000;
+
+}
+
+.dolikes{
+     display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin-left: 70px;
+
+position: static;
+width: 180px;
+height: 60px;
+left: 50px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+}
+.docmnts{
+     display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+position: static;
+width: 150px;
+height: 60px;
+left: 50px;
+top: 0px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 0px;
+
+}

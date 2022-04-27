@@ -1,0 +1,14 @@
+.sidebar{
+     display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+
+position: absolute;
+height: 1504px;
+left: 70.62%;
+right: 5.21%;
+top: 640px;
+
+}
+

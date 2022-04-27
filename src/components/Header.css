@@ -1,0 +1,88 @@
+.mainContainer{
+     position: absolute;
+height: 600px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.headdiv{
+     background-image: url(../assets/banner\ \(1\).png);
+     position: absolute;
+    height: 320px;
+    left: 5.21%;
+    right: 5.21%;
+    top: 80px;
+    border-radius: 16px;
+}
+.logo{
+     position: absolute;
+width: 255px;
+height: 240px;
+left: 187.5px;
+top: 280px;
+
+background: url(../assets/profile.png), #C4C4C4;
+border: 10px solid #FFFFFF;
+box-sizing: border-box;
+
+}
+.headercontent{
+     display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+top:390px;
+
+position: absolute;
+width: 439px;
+height: 80px;
+left: 450px;
+bottom: 107px;
+}
+.headerdata{
+     display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+top: 480px;
+
+position: absolute;
+width: 252px;
+height: 80px;
+left: 431px;
+bottom: 27px;
+}
+.firstdata{
+     
+     display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 80px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+.firstdata h1{
+     color: blue;
+}
+.seconddata{
+     display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 80px;
+height: 80px;
+left: 160px;
+top: 0px;
+}
+.seconddata h1{
+     color: blue;
+}
